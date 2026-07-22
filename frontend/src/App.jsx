@@ -6,7 +6,7 @@ import AlertHistory from './AlertHistory';
 import MissionControl from './MissionControl';
 import './index.css';
 
-const API = 'http://localhost:5000';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 // ── Drone SVG ──────────────────────────────────────────────────────────────
 function DroneSVG({ color = '#00d4ff', size = 90 }) {

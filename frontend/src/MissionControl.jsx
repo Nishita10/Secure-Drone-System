@@ -10,7 +10,7 @@ const ATTACK_TYPE_LABELS = {
   cmd_inject:      { label: 'Command Injection',   color: '#00b0ff', icon: '💻', desc: 'Malicious OS command payload in telemetry' },
 };
 
-const API = 'http://localhost:5000';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 export default function MissionControl({ attackState }) {
   const [selectedType, setSelectedType]   = useState('spike');
