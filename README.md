@@ -158,7 +158,4 @@ npm run dev
 * **Frontend**: React, Vite, Leaflet, Tailwind CSS, Lucide Icons
 * **Simulation**: ArduPilot SITL, DroneKit-Python, MAVLink
 
----
 
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for details.
